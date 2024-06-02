@@ -1,3 +1,7 @@
+![](https://github.com/nyosegawa/paper-reader-ochiai-method/assets/116951203/e9b4c7d1-bc97-4b89-a841-163eddad1f80)
+
+解説記事: [Qiita](https://qiita.com/sakasegawa/items/8e17ede26dd96e7e3280)
+
 ## 環境準備
 
 ```
@@ -18,8 +22,6 @@ OPENAI_API_KEY=sk...
 ```
 python app.py
 ```
-
-![](https://github.com/nyosegawa/paper-reader-ochiai-method/assets/116951203/e9b4c7d1-bc97-4b89-a841-163eddad1f80)
 
 ## 注意
 
