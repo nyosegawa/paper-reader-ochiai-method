@@ -374,8 +374,8 @@ def paper_reader(arxiv_url: str, processing_mode: str) -> tuple:
     pdf_path = download_paper(arxiv_url, save_dir_name)
     pdf_text = extract_text(pdf_path)
     images = pdf_to_base64(pdf_path)
-    paper_summary_ochiai = generate_paper_summary_ochiai_text(pdf_text, arxiv_url)
-    # paper_summary_ochiai = generate_paper_summary_ochiai(images, arxiv_url)
+    # paper_summary_ochiai = generate_paper_summary_ochiai_text(pdf_text, arxiv_url) # テキスト抽出版
+    paper_summary_ochiai = generate_paper_summary_ochiai(images, arxiv_url) # 画像版
 
     gallery_data = []
     if processing_mode == "none":
