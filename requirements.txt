@@ -1,0 +1,10 @@
+torch
+pillow==9.5.0
+opencv-python
+openai
+gradio
+arxiv
+python-dotenv
+layoutparser
+layoutparser[layoutmodels]
+git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2

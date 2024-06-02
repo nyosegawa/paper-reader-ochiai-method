@@ -1,13 +1,20 @@
----
-title: Paper Reader Ochiai Method
-emoji: 💻
-colorFrom: indigo
-colorTo: pink
-sdk: gradio
-sdk_version: 4.32.2
-app_file: app.py
-pinned: false
-license: apache-2.0
----
+## 環境準備
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+```
+python -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+```
+
+`.env` を作成
+https://platform.openai.com/api-keys でAPIキーを取得し貼り付け
+
+```
+OPENAI_API_KEY=sk...
+```
+
+## 使い方
+
+```
+python app.py
+```
