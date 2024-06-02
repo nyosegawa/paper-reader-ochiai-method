@@ -18,3 +18,10 @@ OPENAI_API_KEY=sk...
 ```
 python app.py
 ```
+
+![](https://github.com/nyosegawa/paper-reader-ochiai-method/assets/116951203/e9b4c7d1-bc97-4b89-a841-163eddad1f80)
+
+## 注意
+
+- 数式、図表の解説を行う場合、1本あたり100-300円くらいかかります
+    - 数式・図表がめちゃ入ってる場合はもっとかかります
